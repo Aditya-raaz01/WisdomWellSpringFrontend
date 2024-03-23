@@ -4,10 +4,35 @@ import { MdOutlineRefresh } from "react-icons/md";
 import { useState } from 'react';
 
 export default function SignUp(){
-    const [regID,setRegID] = useState('');
+    const [signupId,setRegID] = useState('');
     const generateID = () => {
       const RandomID = Math.random().toString(36).substring(2,10);
       setRegID(RandomID);
+    }
+
+    const [signupName,setName] = useState('');
+    const [signupEmail,setEmail] = useState('');
+    const [signupPassword,setPassword] = useState('');
+    const [signupCentre,setCentre] = useState('');
+    const [signupCPassword, setCPassword] =useState('');
+
+    function userData() {
+        let data = { signupName, signupEmail, signupCentre, signupPassword, signupCPassword, signupId };
+        // console.warn(data);
+        fetch("http://localhost:8080/user/signup", {
+          method: "POST",
+          credentials: 'include',
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }).then((resp) => {
+          // console.warn("resp",resp);;
+          resp.json().then((result) => {
+            console.warn("result", result);
+          });
+        });
     }
 
     return(
@@ -19,13 +44,20 @@ export default function SignUp(){
                     <div id='signUpUpper'>Sign Up</div>
                     <div id='signUpUnderline'></div>
                     <div id='signUpBody'>
-                        <input id='signupName' type='text' placeholder='Your Name'></input><br/>
-                        <input id='signupCentre' type='text' placeholder='Name of the Centre'></input><br/>
-                        <input id='signupEmail' type='email' placeholder='Your Email'></input><br/>
-                        <input id='signupPassword' type='password' placeholder='Password'></input><br/>
-                        <input id='signupCPassword' type='password' placeholder='Confirm Password'></input><br/>
+                        <input id='signupName' type='text' placeholder='Your Name' value={signupName} name="signupName" onChange={(e)=>{
+                            setName(e.target.value)
+                        }}></input><br/>
+                        <input id='signupCentre' type='text' placeholder='Name of the Centre' value={signupCentre} name="signupCentre" onChange={(e)=>{
+                            setCentre(e.target.value)}}></input><br/>
+                        <input id='signupEmail' type='email' placeholder='Your Email' value={signupEmail} name="signupEmail" onChange={(e)=>{
+                            setEmail(e.target.value)}}></input><br/>
+                        <input id='signupPassword' type='password' placeholder='Password' value={signupPassword} name="signupPassword"  onChange={(e)=>{
+                            setPassword(e.target.value)}}></input><br/>
+                        <input id='signupCPassword' type='password' placeholder='Confirm Password' value={signupCPassword} name="signupCPassword" onChange={(e)=>{
+                            setCPassword(e.target.value)
+                        }}></input><br/>
                         <div id='signupIdBox'>
-                            <input id='signupId' type='text' placeholder='Unique ID' value={regID} onChange={(e)=>setRegID(e.target.value)} readOnly></input>
+                            <input id='signupId' type='text' placeholder='Unique ID' value={signupId} onChange={(e)=>setRegID(e.target.value)} name='signupId' readOnly></input>
                             <MdOutlineRefresh id='icon' size={25} style={{cursor:'pointer'}} onClick={generateID}/>
                         </div>
                     </div>
