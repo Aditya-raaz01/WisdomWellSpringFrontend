@@ -1,12 +1,12 @@
 #dashboard {
     width: 100%;
-    height: 84.8vh;
+    height: 84vh;
     background-color: #f0f0f0; 
 }
 
 #panel {
     width: 20%;
-    height: 84.8vh;
+    height: 84.4vh;
     background-color: #333; 
     color: #fff; 
 }
@@ -35,8 +35,8 @@
 }
 
 #addPatientBackImage{
-    height: 84.8vh;
-    width: 112%;
+    height: 84.4vh;
+    width: 114%;
 }
 
 #addPatientForm{

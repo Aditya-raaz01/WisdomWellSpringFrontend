@@ -1,12 +1,12 @@
 #dashboard {
     width: 100%;
-    height: 84.8vh;
+    height: 84vh;
     background-color: #f0f0f0; 
 }
 
 #panel {
     width: 20%;
-    height: 84.8vh;
+    height: 84vh;
     background-color: #333; 
     color: #fff; 
 }
@@ -28,4 +28,61 @@
 #panelButtonText {
     text-decoration: none;
     color: #fff; 
+}
+
+#dashboard{
+    display: flex;
+}
+
+#addMedicineBackImage{
+    height: 84.4vh;
+    width: 114%;
+}
+
+#addMedicineForm{
+    position: absolute;
+    left: 350px;
+    bottom: 150px;
+    text-align: center;
+
+}
+
+#addMedicineHeader{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px 10px;
+}
+
+#patientId, #medicineName, #medicineFoodList, #medicineTimeList{
+    margin: 10px 10px;
+    height: 30px;
+    width: 250px;
+    margin: 10px 0px;
+    background-color: #e4e4e4;
+    border-bottom: 2px solid orangered;
+    font-size: medium;
+
+}
+
+#medicineTimeBox, #medicineFoodBox, #medicineSubmit{
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#medicineUnderline{
+    width: 71px;
+    height: 3px;
+    position: absolute;
+    left: 170px;
+    bottom: 260px;
+    background: black;
+    border-radius: 9px;
+}
+
+#addMedicineSideImage{
+    position: absolute;
+    right: 70px;
+    top: 230px;
 }

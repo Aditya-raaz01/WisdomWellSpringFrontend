@@ -17,7 +17,7 @@ export default function AddMedicine(){
           patientId
           
         };
-        fetch("http://localhost:8080/user/addPatient", {
+        fetch("http://localhost:8080/user/addMedicine", {
           method: "POST",
           credentials: "include",
           headers: {
@@ -38,18 +38,20 @@ export default function AddMedicine(){
             <div id="dashboard">
                 <div id="panel">
                     <div id="panelButton"><Link to='/user/profile' id="panelButtonText">Profile</Link></div>
-                    <div id="panelButton"><Link to='/user/addPatient' id="panelButtonText">Add Patient</Link></div>
                     <div id="panelButton"><Link to="/user/viewPatients" id="panelButtonText">View Patient</Link></div>
+                    <div id="panelButton"><Link to='/user/addPatient' id="panelButtonText">Add Patient</Link></div>
                     <div id="panelButton"><Link to='/user/addMedicine' id="panelButtonText">Add Medicine</Link></div>
                     <div id="panelButton"><Link to='/' id="panelButtonText">Log Out</Link></div>
                 </div>
                 <div id="display">
-
+                    <img src='/pictures/loginbackground.jpg' alt='' id='addMedicineBackImage'/>
                 </div>
             </div>
+            <img src='/pictures/medicine.png' alt='' id='addMedicineSideImage'/>
             <div id="addMedicineForm">
+
               <div id="addMedicineHeader">Add Medicine</div>
-              <div id="underline"></div>
+              <div id="medicineUnderline"></div>
               <input type='text' placeholder='Patient ID' id='patientId' name='patientId' value={patientId} onChange={(e)=>{
                         setPatientId(e.target.value)}}></input><br/>
               <input type='text' placeholder='Medicine Name' id='medicineName' name='medicineName' value={medicineName} onChange={(e)=>{
@@ -76,7 +78,7 @@ export default function AddMedicine(){
 
                     </select>
                     <br/>
-                    <button id='patientSubmit' onClick={userData}>Submit</button>
+                    <button id='medicineSubmit' onClick={userData}>Submit</button>
             </div>
         </>
     );
