@@ -1,0 +1,261 @@
+
+  #home-page-image{
+    position: relative;
+  }
+  
+  #backgroundimage{
+    height: 880px;
+    width: 100%;
+    object-fit: cover;
+    padding: 0px 0px;
+  }
+  
+  #text-on-image{
+    position: absolute;
+    left: 200px;
+    bottom: 350px;
+  }
+  
+  #firstline, #thirdline{
+    color: orange;
+  }
+  
+  #secondline, #info{
+    color: white;
+  }
+  
+  #facilities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 0px;
+  }
+  
+  #rescue, #treatment, #sos{
+    width: 400px;
+    border: 1px solid #e4e4e4;
+    padding: 20px 0px;
+    background-color: antiquewhite;
+    border-bottom: 5px solid #f2963f;
+    border-radius: 5%;
+  }
+  
+  #icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #heading{
+    color: #f2963f;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  
+  #liner{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+  }
+  
+  #information{
+    padding: 10px 50px;
+    position: relative;
+  }
+  
+  #infotext{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    height: 380px;
+    width: 600px;
+    background-color: #e4e4e4;
+    padding: 10px 20px;
+    border: 0px solid #e4e4e4;
+  }
+  
+  #infopic{
+    padding-left: 50px;
+  }
+  #heading2{
+    font-size: 40px;
+    color: #f2963f;
+  }
+  
+  #body2{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  #info2{
+    padding: 20px 0px;
+  }
+  
+  #services{
+    padding: 20px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+  }
+  
+  #heading3{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  
+  #upper, #lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 40px;
+  }
+  
+  #services-box{
+    position: relative;
+    width: 400px;
+  }
+  
+  #services-head{
+    color: orange;
+    font-weight: 500;
+    font-size: 25px;
+    position: absolute;
+    left: 120px;
+    top: 5px;
+  }
+  
+  #services-text{
+    position: absolute;
+    left: 120px;
+    top: 45px;
+  }
+  
+  #team{
+    padding: 40px 20px;
+  }
+  
+  #teamheading{
+    text-align: center;
+    font-size:30px;
+  }
+  
+  #teamheadingunderline{
+    width: 70px;
+  }
+  
+  #teambody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+  }
+  
+  #member{
+    height: 400px;
+    width: 300px;
+    position: relative;
+  }
+  
+  #memberimage{
+    height: 370px;
+    width: 300px;
+  }
+  
+  #membertext{
+    position: absolute;
+    height: 70px;
+    width: 240px;
+    background-color: #f2963f;
+    color: white;
+    font-weight: 700;
+    left: 30px;
+    bottom: 0px;
+    text-align: center;
+  }
+  
+  #membername{
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  #footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: black;
+    height: 250px;
+    color: #e4e4e4;
+    gap: 30px;
+  }
+  
+  #footerbox{
+    width: 300px;
+  }
+  
+  #footerboxhead1, #footerboxhead2, #footerboxhead3{
+    color: #f2963f;
+    font-size: larger;
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  #footerboxbody1{
+    color: #e4e4e4;
+    padding: 10px 10px;
+  }
+  
+  #footerboxfoot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+  
+  #footerboxbody2{
+    text-align: center;
+    padding: 10px 10px;
+    color: #e4e4e4;
+  }
+  
+  #footerboxfoot2{
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    color: #e4e4e4;
+    font-weight: 500;
+  
+  }
+  
+  #footerboxbody3{
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  #footeraddress, #footeremail, #footerphone, #footerwebsite{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 7px 10px;
+    gap: 10px;
+  }
+  
+  #copyright{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f2963f;
+  }
+  
+  #copyrightbody{
+  
+    padding: 0px 5px;
+    font-weight: 600;
+  }

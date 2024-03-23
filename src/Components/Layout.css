@@ -1,0 +1,72 @@
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #address{
+    width: 35%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 20px;
+  }
+  
+  #phone{
+    width: 25%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 300px;
+  }
+  
+  #donate-now{
+    height: 40px;
+    position: absolute;
+    padding: 0px 30px;
+    right: 200px;
+    cursor: pointer;
+    border: 0.5px solid black;
+    background-color: #f2963f;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+  }
+  
+  #nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    background-color: black;
+    height: 60px;
+  }
+  
+  #nav-bar-format{
+    display: flex;
+    gap: 50px;
+  }
+  
+  #nav-button{
+    cursor: pointer;
+    color: orange;
+    text-decoration: none;
+  }
+  
+  #nav-button-emergency{
+    cursor: pointer;
+    height: 30px;
+    color: black;
+  }
+  

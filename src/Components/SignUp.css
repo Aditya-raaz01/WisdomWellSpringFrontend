@@ -1,0 +1,109 @@
+
+
+#signUpPage{
+    position: relative;
+}
+
+#signUpBackImage{
+    width: 100%;
+    height: 84.4vh;
+}
+
+#signUpSideImage{
+    height: 400px;
+    position: absolute;
+    right: 80px;
+    top: 110px;
+}
+
+#signUpBox{
+    width: 350px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+#signUpUpper{
+    text-align: center;
+    font-size: 55px;
+    padding: 15px 20px 10px 20px;
+}
+
+#signUpUnderline{
+    width: 71px;
+    height: 3px;
+    position: absolute;
+    left: 140px;
+    background: black;
+    border-radius: 9px;
+}
+
+#signUpBody{
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 0px 20px;
+    padding-top: 30px;
+}
+
+#signupEmail,#signupPassword, #signupCPassword, #signupName, #signupCentre, #signupIdBox{
+    height: 25px;
+    width: 250px;
+    margin: 5px 0px;
+    background-color: #e4e4e4;
+    border-bottom: 2px solid orangered;
+    font-size: medium;
+}
+
+#signupIdBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 26px;
+    gap: 25px;
+    border: 1.75px solid black;
+    border-bottom: 2px solid orangered;
+    padding-block: 1px;
+    padding-inline: 2px;
+   
+    
+}
+
+#signupId{
+    background-color: #e4e4e4;
+    border: none;
+    font-size: medium;
+}
+
+
+
+#signUpOldMember{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#signUpLower{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+#signUpOldMemberText{
+    text-decoration: none;
+
+}
+
+signUpOldMemberText:hover{
+    color: aqua;
+    font-weight: 500;
+}
+
+#signUpButton{
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#signUpButtonText{
+    text-decoration: none;
+}
