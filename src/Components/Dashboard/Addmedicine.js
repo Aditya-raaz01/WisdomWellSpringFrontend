@@ -73,9 +73,6 @@ export default function AddMedicine(){
                         setMedicineFoodBox(e.target.value)}}>
                         <option id="medicineFoodBox" value="Empty Stomach">Empty Stomach</option>
                         <option id="medicineFoodBox" value="After Food">After Food</option>
-                        
-
-
                     </select>
                     <br/>
                     <button id='medicineSubmit' onClick={userData}>Submit</button>
