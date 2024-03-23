@@ -29,3 +29,54 @@
     text-decoration: none;
     color: #fff; 
 }
+
+#dashboard{
+    display: flex;
+}
+
+#addPatientBackImage{
+    height: 84.8vh;
+    width: 112%;
+}
+
+#addPatientForm{
+    position: absolute;
+    left: 500px;
+    bottom: 200px;
+    text-align: center;
+
+}
+
+#addPatientHeader{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px 10px;
+}
+
+#patientName, #patientNumber, #patientAge{
+    margin: 10px 10px;
+    height: 30px;
+    width: 250px;
+    margin: 10px 0px;
+    background-color: #e4e4e4;
+    border-bottom: 2px solid orangered;
+    font-size: medium;
+
+}
+
+#patientGenderBox, #patientSubmit{
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#underline{
+    width: 71px;
+    height: 3px;
+    position: absolute;
+    left: 90px;
+    bottom: 230px;
+    background: black;
+    border-radius: 9px;
+}

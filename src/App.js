@@ -7,6 +7,7 @@ import SignUp from './Components/SignUp';
 import Profile from './Components/Dashboard/Profile';
 import Addmedicine from './Components/Dashboard/Addmedicine';
 import AddPatient from './Components/Dashboard/AddPatient';
+import Viewpatient from './Components/Dashboard/Viewpatient';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='user/profile' element={<Profile/>}/>
           <Route path='user/addPatient' element={<AddPatient/>}/>
           <Route path='user/addMedicine' element={<Addmedicine/>}/>
+          <Route path='user/viewPatients' element={<Viewpatient/>}/>
         </Route>
       </Routes>
   );
