@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
+  const navigate = useNavigate();
   const [loginemail, setlogin] = useState("");
   const [loginpassword, setPassword] = useState("");
-  function userData() {
+  async function userData() {
     let data = {
       loginemail,
       loginpassword,
@@ -22,6 +23,7 @@ export default function Login() {
       // console.warn("resp",resp);;
       resp.json().then((result) => {
         console.log("result", result);
+        navigate("/user/profile");
       });
     });
   }
