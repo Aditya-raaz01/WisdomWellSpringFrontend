@@ -53,7 +53,9 @@ export default function Profile() {
               Profile
             </Link>
           </div>
+          <div id="panelButton"><Link to="/user/viewPatients" id="panelButtonText">View Patient</Link></div>
           <div id="panelButton">
+
             <Link to="/user/viewPatients" id="panelButtonText">
               View Patient
             </Link>
