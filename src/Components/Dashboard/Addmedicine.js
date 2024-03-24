@@ -104,6 +104,10 @@ export default function AddMedicine() {
             setMedicineTime(e.target.value);
           }}
         >
+          {" "}
+          <option id="medicineTimeBox" value="Select ">
+            Select Time
+          </option>
           <option id="medicineTimeBox" value="Morning">
             Morning
           </option>
@@ -127,6 +131,9 @@ export default function AddMedicine() {
             setMedicineFoodBox(e.target.value);
           }}
         >
+          <option id="medicineFoodBox" value="Select">
+            Select Type
+          </option>
           <option id="medicineFoodBox" value="Empty Stomach">
             Empty Stomach
           </option>

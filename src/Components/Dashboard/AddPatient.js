@@ -93,7 +93,7 @@ export default function AddPatient() {
             setpatientGender(e.target.value);
           }}
         >
-          <option id="patientGenderBox" value="Male">
+          <option id="patientGenderBox" value="Select Gender">
             Select Gender
           </option>
           <option id="patientGenderBox" value="Male">

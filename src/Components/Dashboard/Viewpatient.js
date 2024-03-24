@@ -86,7 +86,15 @@ export default function Viewpatient() {
                     <p>Phone Number: {patient.phoneNo}</p>
                     <p>Age: {patient.age}</p>
                     <p>Id: {patient._id}</p>
-                    <p>Medicines: {patient.medicineList}</p>
+                    <p>Medicines:</p>
+                    <ul>
+                      {patient.medicineList.map((medicine, index) => (
+                        <li key={index}>
+                          {medicine.medicineName} - {medicine.time},{" "}
+                          {medicine.before}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))
