@@ -17,12 +17,10 @@ export default function Profile() {
         return result.json();
       })
       .then((data) => {
-       
-          setUsers(data);
-      
-          // If data is not an array, perhaps it's an object with users inside
-          // Adjust this according to the structure of your response
-          
+        setUsers(data);
+
+        // If data is not an array, perhaps it's an object with users inside
+        // Adjust this according to the structure of your response
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -57,6 +55,12 @@ export default function Profile() {
           </div>
           <div id="panelButton"><Link to="/user/viewPatients" id="panelButtonText">View Patient</Link></div>
           <div id="panelButton">
+
+            <Link to="/user/viewPatients" id="panelButtonText">
+              View Patient
+            </Link>
+          </div>
+          <div id="panelButton">
             <Link to="/user/addPatient" id="panelButtonText">
               Add Patient
             </Link>
@@ -75,25 +79,24 @@ export default function Profile() {
         <div id="display">
           <div className="App">
             <h1>User-Profile</h1>
-            
-              <div className="card bigcard" key={users.userId}>
-                <div className="rightcard">
-                  <img
-                    src="/pictures/Userimg.jpg"
-                    alt="User Image"
-                    style={{ width: "100%" }}
-                  />
-                </div>
-                <div className="container">
-                  <h4>
-                    <b> Name : {users.name}</b>
-                  </h4>
-                  <p>Email: {users.email}</p>
-                  <p>UserId: {users.userId}</p>
-                  <p>UserCenter: {users.userCentre}</p>
-                </div>
+
+            <div className="card bigcard" key={users.userId}>
+              <div className="rightcard">
+                <img
+                  src="/pictures/Userimg.jpg"
+                  alt="User Image"
+                  style={{ width: "100%" }}
+                />
               </div>
-            
+              <div className="container">
+                <h4>
+                  <b> Name : {users.name}</b>
+                </h4>
+                <p>Email: {users.email}</p>
+                <p>UserId: {users.userId}</p>
+                <p>UserCenter: {users.userCentre}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
