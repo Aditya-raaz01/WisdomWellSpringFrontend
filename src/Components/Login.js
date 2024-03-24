@@ -44,7 +44,7 @@ export default function Login() {
             <input
               id="loginemail"
               type="email"
-              placeholder="Email ID"
+              placeholder="  Email ID"
               value={loginemail}
               name="loginemail"
               onChange={(e) => {
@@ -55,7 +55,7 @@ export default function Login() {
             <input
               id="loginpassword"
               type="password"
-              placeholder="Password"
+              placeholder="  Password"
               value={loginpassword}
               name="loginpassword"
               onChange={(e) => {
