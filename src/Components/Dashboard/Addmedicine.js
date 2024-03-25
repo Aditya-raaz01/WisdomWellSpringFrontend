@@ -17,7 +17,7 @@ export default function AddMedicine(){
           patientId
           
         };
-        fetch("http://localhost:8080/user/addMedicine", {
+        fetch("https://wisdom-well-spring-backend.vercel.app/", {
           method: "POST",
           credentials: "include",
           headers: {
