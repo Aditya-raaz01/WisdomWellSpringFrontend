@@ -36,7 +36,7 @@ export default function Login() {
           alt=""
           id="backimage"
         ></img>
-        <img src="/pictures/loginside.png" alt="image" id="sideimage"></img>
+        <img src="/pictures/loginside.png" alt="" id="sideimage"></img>
         <div id="loginbox">
           <div id="loginupper">Login</div>
           <div id="loginunderline"></div>
