@@ -1,5 +1,5 @@
 import "./Addmedicine.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 export default function AddMedicine() {
@@ -7,6 +7,7 @@ export default function AddMedicine() {
   const [medicineFoodBox, setMedicineFoodBox] = useState("");
   const [medicineTime, setMedicineTime] = useState("");
   const [patientId, setPatientId] = useState("");
+  const navigate = useNavigate();
 
     function userData() {
         let data = {

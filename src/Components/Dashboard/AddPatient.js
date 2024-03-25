@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./AddPatient.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function AddPatient() {
   const [patientName, setpatientName] = useState("");
   const [patientAge, setpatientAge] = useState("");
   const [patientGender, setpatientGender] = useState("");
   const [patientNumber, setpatientNumber] = useState("");
-
+  const navigate = useNavigate();
   function userData() {
     let data = {
       patientName,
