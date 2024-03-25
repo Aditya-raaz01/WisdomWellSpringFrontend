@@ -8,28 +8,6 @@ export default function AddMedicine() {
   const [medicineTime, setMedicineTime] = useState("");
   const [patientId, setPatientId] = useState("");
 
-  function userData() {
-    let data = {
-      medicineName,
-      medicineFoodBox,
-      medicineTime,
-      patientId,
-    };
-    fetch("http://localhost:8080/user/addMedicine", {
-      method: "POST",
-      credentials: "include",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((resp) => {
-      // console.warn("resp",resp);;
-      resp.json().then((result) => {
-        console.log("result", result);
-      });
-    });
-  }
     function userData() {
         let data = {
           medicineName,
