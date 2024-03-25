@@ -6,7 +6,7 @@ export default function Profile() {
   const [users, setUsers] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-    fetch("http://localhost:8080/user/profile", {
+    fetch("https://wisdom-well-spring-backend.vercel.app/", {
       method: "GET",
       credentials: "include",
     })
