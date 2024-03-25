@@ -83,7 +83,7 @@ export default function Profile() {
               <div className="rightcard">
                 <img
                   src="/pictures/Userimg.jpg"
-                  alt="User Image"
+                  alt=""
                   style={{ width: "100%" }}
                 />
               </div>
