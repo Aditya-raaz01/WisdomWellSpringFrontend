@@ -26,7 +26,7 @@ export default function Viewpatient() {
   }, []);
 
   function logout() {
-    fetch("http://localhost:8080/user/logout", {
+    fetch( "https://wisdom-well-spring-backend.vercel.app/user/logout", {
       method: "GET",
       credentials: "include",
       headers: {
