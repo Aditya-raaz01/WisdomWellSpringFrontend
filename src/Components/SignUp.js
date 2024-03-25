@@ -66,7 +66,7 @@ export default function SignUp() {
             <input
               id="signupName"
               type="text"
-              placeholder="Your Name"
+              placeholder="  Your Name"
               value={signupName}
               name="signupName"
               onChange={(e) => {
@@ -77,7 +77,7 @@ export default function SignUp() {
             <input
               id="signupCentre"
               type="text"
-              placeholder="Name of the Centre"
+              placeholder="  Name of the Centre"
               value={signupCentre}
               name="signupCentre"
               onChange={(e) => {
@@ -88,7 +88,7 @@ export default function SignUp() {
             <input
               id="signupEmail"
               type="email"
-              placeholder="Your Email"
+              placeholder="  Your Email"
               value={signupEmail}
               name="signupEmail"
               onChange={(e) => {
@@ -99,7 +99,7 @@ export default function SignUp() {
             <input
               id="signupPassword"
               type="password"
-              placeholder="Password"
+              placeholder="  Password"
               value={signupPassword}
               name="signupPassword"
               onChange={(e) => {
@@ -110,7 +110,7 @@ export default function SignUp() {
             <input
               id="signupCPassword"
               type="password"
-              placeholder="Confirm Password"
+              placeholder="  Confirm Password"
               value={signupCPassword}
               name="signupCPassword"
               onChange={(e) => {
@@ -122,7 +122,7 @@ export default function SignUp() {
               <input
                 id="signupId"
                 type="text"
-                placeholder="Unique ID"
+                placeholder="  Unique ID"
                 value={signupId}
                 onChange={(e) => setRegID(e.target.value)}
                 name="signupId"

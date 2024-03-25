@@ -1,85 +1,88 @@
-#loginpage{
-    position: relative;
+#loginpage {
+  position: relative;
 }
 
-#backimage{
-    width: 100%;
-    height: 84.35vh;
+#backimage {
+  width: 100%;
+  height: 84.35vh;
 }
 
-#sideimage{
-    height: 400px;
-    position: absolute;
-    right: 80px;
-    top: 110px;
+#sideimage {
+  height: 400px;
+  position: absolute;
+  right: 80px;
+  top: 110px;
 }
 
-#loginbox{
-    width: 350px;
-    position: absolute;
-    left: 150px;
-    top: 150px;
+#loginbox {
+  width: 350px;
+  position: absolute;
+  left: 150px;
+  top: 150px;
 }
 
-#loginupper{
-    text-align: center;
-    font-size: 55px;
-    padding: 15px 20px 10px 20px;
+#loginupper {
+  text-align: center;
+  font-size: 55px;
+  padding: 15px 20px 10px 20px;
 }
 
-#loginunderline{
-    width: 71px;
-    height: 3px;
-    position: absolute;
-    left: 140px;
-    background: black;
-    border-radius: 9px;
+#loginunderline {
+  width: 71px;
+  height: 3px;
+  position: absolute;
+  left: 140px;
+  background: black;
+  border-radius: 9px;
 }
 
-#loginbody{
-    text-align: center;
-    padding-bottom: 30px;
-    padding: 0px 20px;
-    padding-top: 30px;
+#loginbody {
+  text-align: center;
+  padding-bottom: 30px;
+  padding: 0px 20px;
+  padding-top: 30px;
 }
 
-#loginemail,#loginpassword{
-    height: 30px;
-    width: 250px;
-    margin: 10px 0px;
-    background-color: #e4e4e4;
-    border-bottom: 2px solid orangered;
-    font-size: medium;
+#loginemail,
+#loginpassword {
+  height: 30px;
+  width: 250px;
+  margin: 10px 0px;
+  background-color: #e4e4e4;
+  border-radius: 6px;
+  border-bottom: 2px solid orangered;
+  font-size: medium;
 }
 
-#loginnewmember{
-    padding: 10px 20px;
+#loginnewmember {
+  padding: 10px 20px;
 }
 
-#loginlower{
-    text-align: center;
-    padding: 10px 20px;
+#loginlower {
+  text-align: center;
+  padding: 10px 20px;
 }
 
-
-#logincreate{
-    text-decoration: none;
-
+#logincreate {
+  text-decoration: none;
 }
 
-logincreate:hover{
-    color: aqua;
-    font-weight: 500;
+#logincreate:hover {
+  color: black;
+  font-weight: 500;
 }
 
-#loginbutton{
-    height: 30px;
-    width: 100px;
-    font-size: medium;
-    cursor: pointer;
+#loginbutton {
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#loginbutton:hover {
+  background-color: rgb(76, 242, 76);
 }
 
-#loginbuttontext{
-    text-decoration: none;
+#loginbuttontext {
+  text-decoration: none;
 }
-
