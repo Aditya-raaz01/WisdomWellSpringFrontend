@@ -51,12 +51,12 @@ export default function SignUp() {
       <div id="signUpPage">
         <img
           src="/pictures/loginbackground.jpg"
-          alt="image"
+          alt=""
           id="signUpBackImage"
         ></img>
         <img
           src="/pictures/signUpSideImage.png"
-          alt="image"
+          alt=""
           id="signUpSideImage"
         ></img>
         <div id="signUpBox">

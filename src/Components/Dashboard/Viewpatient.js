@@ -65,8 +65,8 @@ export default function Viewpatient() {
             Add Medicine
           </Link>
         </div>
-        <div id="panelButton">
-          <Link to="/" id="panelButtonText">
+        <div id="panelButton" >
+          <Link to="/" id="panelButtonText" onClick={logout}>
             Log Out
           </Link>
         </div>

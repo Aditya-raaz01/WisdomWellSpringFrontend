@@ -33,7 +33,7 @@ export default function Login() {
       <div id="loginpage">
         <img
           src="/pictures/loginbackground.jpg"
-          alt="image"
+          alt=""
           id="backimage"
         ></img>
         <img src="/pictures/loginside.png" alt="image" id="sideimage"></img>

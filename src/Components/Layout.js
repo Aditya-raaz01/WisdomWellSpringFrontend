@@ -18,7 +18,7 @@ export default function Layout (){
             <button id="donate-now">Donate Now</button>
         </div>
         <div id='nav-bar'>
-            <img src="/pictures/logo.png" alt='image' id='logo' height={50}/>
+            <img src="/pictures/logo.png" alt='' id='logo' height={50}/>
             <div id='nav-bar-format'>
                 <Link to='/' id='nav-button'>Home</Link>
                 <Link to='/about-us' id='nav-button'>About US</Link>

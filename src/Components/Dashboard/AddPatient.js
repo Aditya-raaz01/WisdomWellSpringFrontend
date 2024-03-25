@@ -31,7 +31,22 @@ export default function AddPatient() {
       });
     });
   }
-
+  function logout() {
+    fetch("http://localhost:8080/user/logout", {
+      method: "GET",
+      credentials: "include",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    }).then((resp) => {
+      // console.warn("resp",resp);;
+      resp.json().then((result) => {
+        console.log("result", result);
+      });
+      navigate("/");
+    });
+  }
   return (
     <>
       <div id="dashboard">
@@ -56,8 +71,8 @@ export default function AddPatient() {
               Add Medicine
             </Link>
           </div>
-          <div id="panelButton">
-            <Link to="/" id="panelButtonText">
+          <div id="panelButton" >
+            <Link to="/" id="panelButtonText" onClick={logout}>
               Log Out
             </Link>
           </div>

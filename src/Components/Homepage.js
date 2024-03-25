@@ -20,7 +20,7 @@ export default function Homepage() {
     return(
     <div id="whole">
       <div id='home-page-image'>
-        <img src='/pictures/background.jpg' alt='image' id='backgroundimage'/>
+        <img src='/pictures/background.jpg' alt='' id='backgroundimage'/>
         <div id='text-on-image'>
           <h2 id='firstline'>You Are Special</h2>
           <h1 id='secondline'>EVERY ELDER DESERVES</h1>
@@ -100,28 +100,28 @@ export default function Homepage() {
         <hr id='teamheadingunderline'></hr>
         <div id='teambody'>
           <div id='member'>
-            <img src='/pictures/aditya.jpg' alt='image' id='memberimage'/>
+            <img src='/pictures/aditya.jpg' alt='' id='memberimage'/>
             <div id='membertext'>
               <div id='membername'>Aditya Raaz</div>
               <div id='memberrole'>Front-End Developer</div>
             </div>
           </div>
           <div id='member'>
-            <img src='/pictures/debasish.jpg' alt='image' id='memberimage'/>
+            <img src='/pictures/debasish.jpg' alt='' id='memberimage'/>
             <div id='membertext'>
               <div id='membername'>Debasish Munda</div>
               <div id='memberrole'>Full Stack Developer</div>
             </div>
           </div>
           <div id='member'>
-            <img src='/pictures/tushar.jpg' alt='image' id='memberimage'/>
+            <img src='/pictures/tushar.jpg' alt='' id='memberimage'/>
             <div id='membertext'>
               <div id='membername'>Tushar Sahu</div>
               <div id='memberrole'>Full Stack Developer</div>
             </div>
           </div>
           <div id='member'>
-            <img src='/pictures/abdul.jpg' alt='image' id='memberimage'/>
+            <img src='/pictures/abdul.jpg' alt='' id='memberimage'/>
             <div id='membertext'>
               <div id='membername'>Abdul Munaim</div>
               <div id='memberrole'>ML/AI Developer</div>
