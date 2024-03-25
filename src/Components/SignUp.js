@@ -27,7 +27,7 @@ export default function SignUp() {
       signupId,
     };
     // console.warn(data);
-    fetch("https://wisdom-well-spring-backend.vercel.app/", {
+    fetch("https://wisdom-well-spring-backend.vercel.app/user/signup", {
       method: "POST",
       credentials: "include",
       headers: {

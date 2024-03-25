@@ -11,7 +11,7 @@ export default function Login() {
       loginemail,
       loginpassword,
     };
-    fetch("https://wisdom-well-spring-backend.vercel.app/", {
+    fetch("https://wisdom-well-spring-backend.vercel.app/user/login", {
       method: "POST",
       credentials: "include",
       headers: {

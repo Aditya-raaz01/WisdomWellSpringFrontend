@@ -7,7 +7,7 @@ export default function Viewpatient() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:8080/user/getPatient", {
+    fetch("https://wisdom-well-spring-backend.vercel.app/user/getPatient", {
       method: "GET",
       credentials: "include",
     })

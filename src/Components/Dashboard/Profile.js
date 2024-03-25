@@ -6,7 +6,7 @@ export default function Profile() {
   const [users, setUsers] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-    fetch("https://wisdom-well-spring-backend.vercel.app/", {
+    fetch("https://wisdom-well-spring-backend.vercel.app/user/profile", {
       method: "GET",
       credentials: "include",
     })
@@ -53,7 +53,6 @@ export default function Profile() {
               Profile
             </Link>
           </div>
-          <div id="panelButton"><Link to="/user/viewPatients" id="panelButtonText">View Patient</Link></div>
           <div id="panelButton">
 
             <Link to="/user/viewPatients" id="panelButtonText">
